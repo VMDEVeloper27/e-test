@@ -18,7 +18,7 @@
 body {
 	font-family: Roboto;
 	color: var(--headers-text-color);
-	letter-spacing: 0.03em;
+	letter-spacing: 0.04em;
 	font-size: 10px;
 	background-color: var(--white-color);
 	display: flex;
