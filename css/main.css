@@ -125,10 +125,7 @@ a {
 	}
 }
 
-.hat__icon:hover,
-.hat__icon:focus {
-	fill: #2196f3;
-}
+
 
 .hat__menu-open-btn.is-open .hat__icon-menu {
 	display: none;
@@ -428,13 +425,17 @@ a {
 	display: block;
 	border: 0;
 	outline: none;
-	border-bottom: 1px solid #000000;
+	-webkit-border-bottom: 1px solid #000000;
+  -webkit-border-radius: 0;
+  
+  border-bottom: 1px solid #000000;
 	width: 235px;
 	padding-bottom: 10px;
 	position: relative;
 }
 
 .search::placeholder {
+  
 	font-size: 10px;
 	font-weight: bold;
 	color: inherit;
