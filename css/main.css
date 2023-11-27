@@ -430,6 +430,7 @@ a {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  -webkit-border-bottom: 1px solid #000000;
   border-bottom: 1px solid #000000;
 	width: 235px;
 	padding-bottom: 10px;
